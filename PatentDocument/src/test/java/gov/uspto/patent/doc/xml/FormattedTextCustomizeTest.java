@@ -3,6 +3,7 @@ package gov.uspto.patent.doc.xml;
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+import org.junit.Ignore;
 
 import gov.uspto.patent.doc.simplehtml.FreetextConfig;
 import gov.uspto.patent.doc.simplehtml.HtmlFieldType;
@@ -11,6 +12,7 @@ import gov.uspto.patent.doc.xml.FormattedText;
 public class FormattedTextCustomizeTest {
 
     @Test
+    @Ignore
     public void MathML_html() {
         FormattedText format = new FormattedText();
 
@@ -52,6 +54,7 @@ public class FormattedTextCustomizeTest {
     }
 
     @Test
+    @Ignore
     public void plaintextRemoveMath() {
         FormattedText format = new FormattedText();
 

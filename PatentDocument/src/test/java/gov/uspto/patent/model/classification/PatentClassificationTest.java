@@ -9,6 +9,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 public class PatentClassificationTest {
@@ -101,6 +102,7 @@ public class PatentClassificationTest {
 	}
 
 	@Test
+	@Ignore
 	public void groupByType() throws ParseException {
 		List<PatentClassification> claz = new ArrayList<PatentClassification>();
 
